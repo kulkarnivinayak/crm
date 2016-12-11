@@ -8,5 +8,7 @@ install:
   - npm install
   - composer install
 
+script: vendor/bin/phpunit
+
 notifications:
   email: "vinayak@shoptreeapp.com" 
