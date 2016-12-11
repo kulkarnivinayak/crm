@@ -10,6 +10,7 @@ before_script:
   - php artisan key:generate
   - npm install
   - npm install gulp
+  - npm install laravel-elixir
   - gulp
 
 script:
