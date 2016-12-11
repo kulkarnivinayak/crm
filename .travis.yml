@@ -6,8 +6,12 @@ env:
 
 install:
   - npm install
-  - composer install
+  - composer install --no-interaction --prefer-dist --no-suggest
   - php artisan key:generate
+
+cache:
+directories:
+  - $HOME/.composer/cache
 
 before_install:
   - if [[ $TRAVIS_PHP_VERSION != 7.1 ]] ; then phpenv config-rm xdebug.ini; fi
