@@ -3,11 +3,12 @@ php:
   - '7.0'
 env:
   - DB=mysql
+  APP_ENV: testing
+  APP_KEY: b29c11b3ebbf41ec92e4fdafe00a479b
 
 install:
   - npm install
   - composer install --no-interaction --prefer-dist --no-suggest
-  - php artisan key:generate
 
 cache:
 directories:
