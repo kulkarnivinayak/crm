@@ -7,3 +7,4 @@ Homestead.yaml
 .env
 .vagrant
 .coveralls.yml
+.php_cs.cache
