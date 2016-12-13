@@ -8,8 +8,9 @@ before_script:
   - composer self-update
   - composer install --no-interaction
   - php artisan key:generate
-  - npm install gulp
-  - npm install laravel-elixir
+  - npm install
+  - npm install -g gulp
+  - gulp materialize-build
   - gulp
 
 script:
