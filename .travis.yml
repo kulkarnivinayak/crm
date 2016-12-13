@@ -8,8 +8,12 @@ before_script:
   - composer self-update
   - composer install --no-interaction
   - php artisan key:generate
-  - npm -v
+  - sudo npm cache clean -f
+  - sudo npm install -g n
+  - sudo n stable
+  - sudo npm install -g npm
   - node -v
+  - npm -v
   - git --version
   - npm install
   - npm install gulp
