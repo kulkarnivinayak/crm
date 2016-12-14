@@ -32,9 +32,8 @@
           <li><a href="{{ url('/register') }}">Register</a></li>
           <!-- Dropdown Trigger -->
           @else
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">JavaScript</a></li>
+          <li><a href="{{ route('customers.index') }}">View Customers</a></li>
+          <li><a href="{{ route('customers.create') }}">Add Customers</a></li>
           <li>
             <a class='dropdown-button btn' href='#' data-activates='dropdown1'>My Profile</a>
             <!-- Dropdown Trigger -->
