@@ -8,3 +8,4 @@ Homestead.yaml
 .vagrant
 .coveralls.yml
 .php_cs.cache
+*.cache

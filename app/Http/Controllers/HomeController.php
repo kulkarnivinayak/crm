@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use Carbon;
 
 class HomeController extends Controller
@@ -23,6 +24,7 @@ class HomeController extends Controller
     public function index()
     {
         $date = Carbon::now()->toFormattedDateString();
+
         return view('welcome')->with('date', $date);
     }
 }
