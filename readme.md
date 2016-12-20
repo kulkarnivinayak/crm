@@ -11,7 +11,7 @@
 ### Homestead + DB setup
 - `composer install`
 - `php vendor/bin/homestead make`
-- add in `/etc/hosts/` secure.shoptreeplatform.app demo.shoptreeplatform.app
+- add in `/etc/hosts/`another.crm
 - `vagrant up`
 - `php artisan key:generate`
 - `php artisan migrate:install`
