@@ -8,6 +8,7 @@
 ## Installation instructions
 ### Clone the repo
 - clone the repo `git clone https://github.com/vinayakkulkarni/crm.git` 
+
 ### Homestead + DB setup
 - `composer install`
 - `php vendor/bin/homestead make`
