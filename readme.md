@@ -4,6 +4,7 @@
 [![StyleCI](https://styleci.io/repos/76187257/shield?style=flat)](https://styleci.io/repos/76187257)
 [![Support](https://supporterhq.com/api/b/9ta2v0nem6g35roljw6pqkiop)](https://supporterhq.com/give/9ta2v0nem6g35roljw6pqkiop)
 [![Coverage Status](https://coveralls.io/repos/github/vinayakkulkarni/crm/badge.svg?branch=master)](https://coveralls.io/github/vinayakkulkarni/crm?branch=master)
+[![Support](https://supporterhq.com/api/b/9ta2v0nem6g35roljw6pqkiop/CRM)](https://supporterhq.com/support/9ta2v0nem6g35roljw6pqkiop/CRM)
 
 ## Installation instructions
 ### Clone the repo
